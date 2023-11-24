@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/tabs.css">
+    <title>Crédito</title>
+</head>
+
+
+<body class="font-Roboto" style="zoom: 0.8;">
+    {{>header}}
+
+    <!--Credito-->
+    <section class="font-Roboto">
+        <div class="flex justify-between">
+            <div>
+                <div class="flex items-center w-56 ml-11 mt-20">
+                    <hr class="  flex-1 border-t-2 border-black mr-4">
+                    <p class="font-bold">CRÉDITO</p>
+                </div>
+                <div class="pl-12rem mt-5">
+                    <h1 class="text-7xl font-bold">Crédito</h1>
+                    <p class="w-690px mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe delectus
+                        <br>a deserunt labore aperiam ab! Pariatur blanditiis eaque officia, ipsam nulla exercitationem
+                        iusto cupiditate corporis tempore ipsa? Delectus, perferendis blanditiis!
+                    </p>
+                    <button id="creditbtn"
+                        class="bg-red-800 hover:bg-red-700 text-white font-bold py-2 px-4 rounded mt-4">
+                        Solicitar
+                    </button>
+                </div>
+            </div>
+            <div>
+                <div class="mt-20 pr-56 ">
+                    <img class="rounded-lg h-96" src="/images/CreditoImg.jpg" alt="main">
+                </div>
+            </div>
+    </section>
+
+    <!--Credito Hipódromo-->
+    <section class=" mt-20 font-Roboto ">
+        <div class="flex justify-center">
+            <div class="flex justify-between ">
+                <div class="bg-CH rounded-md text-white w-606px">
+                    <div class="p-4">
+                        <h1 class="text-3xl font-bold">Creditos Hipódromo</h1>
+                        <p class="mt-5 text-GR font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                            varius enim
+                            in
+                            eros elementum tristique.
+                            Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae
+                            erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet.
+                            Nunc ut sem vitae risus tristique posuere.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="w-[880px] ml-[90px]">
+                    <div class="tabs">
+                        <input type="radio" class="tabs__radio" name="tabs-example" id="tab1" checked>
+                        <label for="tab1" class="tabs__label" class="font-bold">Automovil</label>
+                        <div class="tabs__content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                            elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                            commodo diam libero vitae erat.
+
+                            Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus
+                            tristique posuere.
+                        </div>
+                        <input type="radio" class="tabs__radio" name="tabs-example" id="tab2">
+                        <label for="tab2" class="tabs__label" class="font-bold">Terreno</label>
+                        <div class="tabs__content">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ad libero optio rem error
+                            omnis? Doloremque accusantium, asperiores est ad qui itaque vero voluptates consequuntur
+                            esse molestias enim dicta odit!
+                        </div>
+                        <input type="radio" class="tabs__radio" name="tabs-example" id="tab3">
+                        <label for="tab3" class="tabs__label" class="font-bold">Construye</label>
+                        <div class="tabs__content">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi quidem suscipit dolor
+                            voluptate possimus neque obcaecati omnis veritatis quibusdam officiis, labore aut id ea
+                            deleniti expedita voluptatibus et sint ex.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Beneficios-->
+    <section class="mt-20">
+        <div class="flex justify-center mb-[30px]">
+            <h1 class="text-5xl font-bold">Beneficios de Creditos</h1>
+        </div>
+
+        <div class="flex text-center justify-center space-x-80 font-bold">
+            <div >
+                <img class="mb-3" src="/images/icons/CAT.png" alt="">
+                <p>CAT</p>
+                <P>25%</P>
+            </div>
+            <div>
+                <img class="mb-3" src="/images/icons/Montos.png" alt="">
+                <p>Montos</p>
+                <p>Hasta $100,000</p>
+            </div>
+            <div>
+                <img class="ml-4 mb-3" src="/images/icons/Facilidad.png" alt="">
+                <p>Facilidad</p>
+                <p>Aprobados en 24hr</p>
+            </div>
+            <div>
+                <img class="mb-3" src="/images/icons/Plazos.png" alt="">
+                <p>Plazos</p>
+                <p>Hasta 72 meses</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-CH mt-20">
+        <div class="flex justify-center">
+            <h1 class="text-4xl text-white mt-5 font-bold">Tipos de Credito</h1>
+        </div>
+
+        <div class="grid grid-cols-3 gap-4 justify-center items-center mr-[100px] ml-[100px] ">
+            <!-- Elemento 1 -->
+            <div class="p-4 flex items-center">
+                <div class=" w-[100px] mr-4">
+                    <!-- Espacio para el icono (reemplaza con tu imagen) -->
+                    <img src="/images/Ahorro/Iconos/Save1.png" alt="Icono 1">
+                </div>
+                <div>
+                    <a href="/pyme" class="text-xl text-white font-semibold">Activos PYME Hipódromo</a>
+                    <p class="text-GR">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error suscipit
+                        possimus facilis porro ipsa vel expedita harum pariatur illo. Veritatis suscipit cumque voluptas
+                        ratione atque, neque nemo animi possimus beatae.</p>
+                </div>
+            </div>
+
+            <!-- Elemento 2 -->
+            <div class="p-4 flex items-center">
+                <div class=" w-[40px] mr-4">
+                    <!-- Espacio para el icono (reemplaza con tu imagen) -->
+                    <img src="/images/Ahorro/Iconos/Save2.png" alt="Icono 2">
+                </div>
+                <div>
+
+                    <a href="/comercialpyme" class="text-xl text-white font-semibold">Comercial PYME Hipódromo</a>
+                    <p class="text-GR ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+                        enim in eros.</p>
+                </div>
+            </div>
+
+            <!-- Elemento 3 -->
+            <div class="p-4 flex items-center">
+                <div class="w-[100px] mr-4">
+                    <!-- Espacio para el icono (reemplaza con tu imagen) -->
+                    <img src="/images/Ahorro/Iconos/Save2.png" alt="Icono 2">
+                </div>
+                <div>
+                    <a href="/terrenohip" class="text-xl text-white font-semibold">Terreno Hipódromo</a>
+                    <p class="text-GR">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error suscipit
+                        possimus facilis porro ipsa vel expedita harum pariatur illo. Veritatis suscipit cumque voluptas
+                        ratione atque, neque nemo animi possimus beatae.</p>
+                </div>
+            </div>
+
+            <!-- Elemento 4 -->
+            <div class="p-4 flex items-center">
+                <div class=" w-[40px] mr-4 mb-[35px]">
+                    <!-- Espacio para el icono (reemplaza con tu imagen) -->
+                    <img src="/images/Ahorro/Iconos/Save1.png" alt="Icono 1">
+                </div>
+                <div>
+                    <a href="/remodelahip" class="text-xl text-white font-semibold">Remodela Hipódromo</a>
+                    <p class="text-GR ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+                        enim in eros.</p>
+                </div>
+            </div>
+            <!-- Elemento 5 -->
+            <div class="p-4 flex items-center mb-[35px]">
+                <div class=" w-[100px] mr-4">
+                    <!-- Espacio para el icono (reemplaza con tu imagen) -->
+                    <img src="/images/Ahorro/Iconos/Save2.png" alt="Icono 2">
+                </div>
+                <div>
+                    <a href="/hipoteca" class="text-xl text-white font-semibold">Hipoteca Hipódromo</a>
+                    <p class="text-GR">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error suscipit
+                        possimus facilis porro ipsa vel expedita harum pariatur illo. Veritatis suscipit cumque voluptas
+                        ratione atque, neque nemo animi possimus beatae.</p>
+                </div>
+            </div>
+
+            <!-- Elemento 6-->
+            <div class="p-4 flex items-center mb-[35px]">
+                <div class=" w-[40px] mr-4">
+                    <!-- Espacio para el icono (reemplaza con tu imagen) -->
+                    <img src="/images/Ahorro/Iconos/Save1.png" alt="Icono 1">
+                </div>
+                <div>
+                    <a href="/construyehip" class="text-xl text-white font-semibold">Construye Hipódromo</a>
+                    <p class="text-GR ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+                        enim in eros.</p>
+                </div>
+            </div>
+
+            <!-- Elemento 7 -->
+            <div class="p-4 flex items-center">
+                <div class=" w-[100px] mr-4">
+                    <!-- Espacio para el icono (reemplaza con tu imagen) -->
+                    <img src="/images/Ahorro/Iconos/Save1.png" alt="Icono 1">
+                </div>
+                <div>
+                    <a href="/refaccionhip" class="text-xl text-white font-semibold">Refaccionario Hipódromo</a>
+                    <p class="text-GR">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error suscipit
+                        possimus facilis porro ipsa vel expedita harum pariatur illo. Veritatis suscipit cumque voluptas
+                        ratione atque, neque nemo animi possimus beatae.</p>
+                </div>
+            </div>
+
+            <!-- Elemento 8 -->
+            <div class="p-4 flex items-center">
+                <div class=" w-[40px] mr-4">
+                    <!-- Espacio para el icono (reemplaza con tu imagen) -->
+                    <img src="/images/Ahorro/Iconos/Save2.png" alt="Icono 2">
+                </div>
+                <div>
+
+                    <a href="/aviohip" class="text-xl text-white font-semibold">Avío Hipódromo</a>
+                    <p class="text-GR ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+                        enim in eros.</p>
+                </div>
+            </div>
+
+            <!-- Elemento 9 -->
+            <div class="p-4 flex items-center">
+                <div class="w-[100px] mr-4">
+                    <!-- Espacio para el icono (reemplaza con tu imagen) -->
+                    <img src="/images/Ahorro/Iconos/Save2.png" alt="Icono 2">
+                </div>
+                <div>
+                    <a href="/triplehip" class="text-xl text-white font-semibold">Triple Hipódromo</a>
+                    <p class="text-GR">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error suscipit
+                        possimus facilis porro ipsa vel expedita harum pariatur illo. Veritatis suscipit cumque voluptas
+                        ratione atque, neque nemo animi possimus beatae.</p>
+                </div>
+            </div>
+
+            <!-- Elemento 10 -->
+            <div class="p-4 flex items-center">
+                <div class=" w-[40px] mr-4 mb-[35px]">
+                    <!-- Espacio para el icono (reemplaza con tu imagen) -->
+                    <img src="/images/Ahorro/Iconos/Save1.png" alt="Icono 1">
+                </div>
+                <div>
+                    <a href="/maxhip" class="text-xl text-white font-semibold">MaxHipódromo</a>
+                    <p class="text-GR ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+                        enim in eros.</p>
+                </div>
+            </div>
+            <!-- Elemento 11 -->
+            <div class="p-4 flex items-center mb-[35px]">
+                <div class=" w-[100px] mr-4">
+                    <!-- Espacio para el icono (reemplaza con tu imagen) -->
+                    <img src="/images/Ahorro/Iconos/Save2.png" alt="Icono 2">
+                </div>
+                <div>
+                    <a href="/promohip" class="text-xl text-white font-semibold">Promo Plus Hipódromo</a>
+                    <p class="text-GR">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error suscipit
+                        possimus facilis porro ipsa vel expedita harum pariatur illo. Veritatis suscipit cumque voluptas
+                        ratione atque, neque nemo animi possimus beatae.</p>
+                </div>
+            </div>
+
+            <!-- Elemento 12-->
+            <div class="p-4 flex items-center mb-[35px]">
+                <div class=" w-[40px] mr-4">
+                    <!-- Espacio para el icono (reemplaza con tu imagen) -->
+                    <img src="/images/Ahorro/Iconos/Save1.png" alt="Icono 1">
+                </div>
+                <div>
+                    <a href="/autohip" class="text-xl text-white font-semibold">AutoHipódromo</a>
+                    <p class="text-GR ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+                        enim in eros.</p>
+                </div>
+            </div>
+            <!-- Elemento 13 -->
+            <div class="p-4 flex items-center mb-[35px]">
+                <div class=" w-[40px] mr-4">
+                    <!-- Espacio para el icono (reemplaza con tu imagen) -->
+                    <img src="/images/Ahorro/Iconos/Save1.png" alt="Icono 1">
+                </div>
+                <div>
+                    <a href="/creditoesp" class="text-xl text-white font-semibold">Crédito Especial</a>
+                    <p class="text-GR ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+                        enim in eros.</p>
+                </div>
+            </div>
+
+
+            <!-- Elemento 14 -->
+            <div class="p-4 flex items-center mb-[35px]">
+                <div class=" w-[100px] mr-4">
+                    <!-- Espacio para el icono (reemplaza con tu imagen) -->
+                    <img src="/images/Ahorro/Iconos/Save2.png" alt="Icono 2">
+                </div>
+                <div>
+                    <a href="/credihip" class="text-xl text-white font-semibold">Credicrece Hipodromo</a>
+                    <p class="text-GR">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error suscipit
+                        possimus facilis porro ipsa vel expedita harum pariatur illo. Veritatis suscipit cumque voluptas
+                        ratione atque, neque nemo animi possimus beatae.</p>
+                </div>
+            </div>
+
+            <!-- Elemento 15-->
+            <div class="p-4 flex items-center mb-[35px]">
+                <div class=" w-[40px] mr-4">
+                    <!-- Espacio para el icono (reemplaza con tu imagen) -->
+                    <img src="/images/Ahorro/Iconos/Save1.png" alt="Icono 1">
+                </div>
+                <div>
+                    <a href="/automaticohip" class="text-xl text-white font-semibold">Automático Hipodromo</a>
+                    <p class="text-GR ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+                        enim in eros.</p>
+                </div>
+            </div>
+            <!-- Elemento 16 -->
+            <div class="p-4 flex items-center mb-[35px]">
+                <div class=" w-[40px] mr-4">
+                    <!-- Espacio para el icono (reemplaza con tu imagen) -->
+                    <img src="/images/Ahorro/Iconos/Save1.png" alt="Icono 1">
+                </div>
+                <div>
+                    <a href="/preautohip" class="text-xl text-white font-semibold">Preautorizado Hipódromo</a>
+                    <p class="text-GR ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+                        enim in eros.</p>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!--Crédito para cada ocasión
+    <section class="font-Roboto bg-CH mt-[50px]">
+
+        <div class="flex justify-center mb-14">
+            <h1 class="text-white text-3xl mt-7">Un credito para cada ocasión</h1>
+        </div>
+
+        <div class="flex justify-center space-x-10">
+            <div class="pl-10">
+                <img class="mb-3 rounded-lg" src="/images/ConstruyeHogar.jpg" alt="">
+                <p class="text-white">Construye tu hogar</p>
+                <P class="text-GR">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in
+                    eros.</P>
+            </div>
+            <div>
+                <img class="mb-3 rounded-lg" src="/images/ConsigueAuto.jpg" alt="">
+                <p class="text-white">Consigue un auto</p>
+                <P class="text-GR">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in
+                    eros.</P>
+            </div>
+            <div>
+                <img class="mb-3 rounded-lg" src="/images/AquiereTerreno.png" alt="">
+                <p class="text-white">Adquiere tu terreno</p>
+                <P class="text-GR">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in
+                    eros.</P>
+            </div>
+            <div class="pr-10">
+                <img class="mb-3 rounded-lg" src="/images/AbreNegocio.jpg" alt="">
+                <p class="text-white">Crea tu negocio</p>
+                <P class="text-GR mb-28">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+                    enim in
+                    eros.</P>
+            </div>
+        </div>
+
+
+    </section>
+    -->
+    <section class="mt-20">
+        <div class="flex  justify-center mb-20  ">
+            <div class="bg-white rounded-lg shadow-md p-8  bg-cover w-1230px h-384px text-center text-white items-center"
+                style="background-image: url('/images/Socios.jpg');">
+
+                <p class="text-5xl mt-5">¿Qué esperas? <br>Conviertete en socio Caja <br>Hipódromo</p>
+                <button class="bg-CH hover:bg-red-700 text-white font-bold py-2 px-4 rounded mt-4">
+                    Más información
+                </button>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    {{>footer}}
+</body>
+
+</html>
